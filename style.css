@@ -1,0 +1,305 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.my-page {
+  position: absolute;
+}
+.my-page .firstpage {
+  position: relative;
+  height: 786px;
+  font-family: "Poppins", sans-serif;
+}
+.my-page .firstpage .backgroundimage1 {
+  position: relative;
+}
+.my-page .firstpage .header {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  gap: 285px;
+}
+.my-page .firstpage .logo {
+  margin-top: 15.35px;
+  margin-left: 84px;
+}
+.my-page .firstpage .header > .header1 {
+  text-transform: uppercase;
+  display: flex;
+  gap: 52px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.my-page .firstpage .firstpagewords {
+  position: absolute;
+  bottom: 130.8px;
+  left: 120px;
+}
+.my-page .firstpage .firstpagewords .freshcoffee {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.my-page .firstpage .firstpagewords .lorem {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31.79px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.my-page .firstpage .firstpagewords .ordernow {
+  width: 330px;
+  height: 88.302px;
+  border-radius: 10px;
+  background: #B77E66;
+  box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  border: 0px;
+}
+.my-page .section1 {
+  position: relative;
+  margin-top: -15px;
+  font-family: "Inter", sans-serif;
+}
+.my-page .section1 .section1words {
+  position: absolute;
+  right: 208.72px;
+  top: 215.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+.my-page .section1 .welcome {
+  color: #471E22;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 44.458px;
+  letter-spacing: -1.575px;
+}
+.my-page .section1 .yourbest {
+  color: #533B2F;
+  font-size: 21px;
+  font-weight: 400;
+  width: 469px;
+  height: 72px;
+  display: flex;
+  justify-content: flex-end;
+}
+.my-page .section1 .viewmore {
+  width: 179.813px;
+  height: 44px;
+  background: #B77E66;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px;
+}
+.my-page .section2 {
+  position: relative;
+}
+.my-page .section2 .section2words {
+  position: absolute;
+  right: 174px;
+  left: 156px;
+  top: 126px;
+  display: flex;
+  gap: 142px;
+}
+.my-page .section2 .openinghours {
+  width: 534px;
+  height: 147px;
+  border-radius: 10px;
+  background: rgba(34, 27, 24, 0.6);
+  color: #FFF;
+  font-family: "Irish Grover", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-page .section2 .row1row2 {
+  font-family: "Irish Grover", sans-serif;
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+.my-page .section2 .row1 {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 80px;
+}
+.my-page .section2 .row2 {
+  display: flex;
+  gap: 80px;
+}
+.my-page .section3 {
+  position: relative;
+}
+.my-page .section3 img {
+  position: absolute;
+  z-index: -1;
+}
+.my-page .section3 .container1 {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: -15px;
+  height: 819px;
+}
+.my-page .section3 .container1 .our-menu {
+  text-align: center;
+  color: #903711;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+  -webkit-text-stroke: 0.4px #ffffff;
+  padding-top: 83px;
+  padding-bottom: 37.26px;
+}
+.my-page .section3 .container1 .coffee {
+  color: #903711;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 50.29px;
+}
+.my-page .section3 .container1 .underline {
+  position: absolute;
+  width: 100.571px;
+  height: 3px;
+  background: #9E5A3D;
+}
+.my-page .section3 .container1 .drinks {
+  display: flex;
+  margin-top: 39.93px;
+  gap: 41px;
+}
+.my-page .section3 .container1 .drinks .drink {
+  padding: 15px 15px 26px;
+  position: relative;
+  width: 260px;
+  height: 444.322px;
+  border-radius: 20px;
+  background: rgba(115, 74, 57, 0.8784313725);
+  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
+}
+.my-page .section3 .container1 .drinks .drink img {
+  border-radius: 10px;
+}
+.my-page .section3 .container1 .drinks .drink .title1 {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.my-page .section3 .container1 .drinks .drink .explanation1 {
+  color: #FFFADA;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0.24px;
+}
+.my-page .section3 .container1 .drinks .drink .ordernow-price {
+  position: absolute;
+  display: flex;
+  gap: 49px;
+  bottom: 26.66px;
+  align-items: center;
+}
+.my-page .section3 .container1 .drinks .drink .price {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  width: 61px;
+  height: 31.596px;
+  text-align: center;
+}
+.my-page .section3 .container1 .drinks .drink .ordernow-button {
+  width: 120px;
+  height: 39.495px;
+  border-radius: 10px;
+  background: #A0583C;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.my-page .section3 .container1 .drinks .drink .backward-button {
+  margin-top: 40px;
+}
+.my-page .section3 .container1 .drinks .drink .backward-button .ellipse1-img {
+  margin-left: -50px;
+}
+.my-page .section3 .container1 .drinks .drink .backward-button .vector1-img {
+  margin-left: -30px;
+  margin-top: 7px;
+}
+.my-page .section3 .container1 .drinks .drink .forward-button .ellipse2-img {
+  margin-left: 215px;
+  margin-top: 40px;
+}
+.my-page .section4 {
+  position: relative;
+}
+.my-page .section4 img {
+  position: absolute;
+  z-index: -1;
+}
+.my-page .section4 .container2 {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: -15px;
+  height: 609px;
+}
+.my-page .section4 .container2 .what-our-customers {
+  color: #FFF;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  padding-top: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.my-page .section4 .container2 .what-our-customers .underline1 {
+  width: 300px;
+  height: 1px;
+  background: #CBCBCB;
+}
+.my-page .section4 .container2 .comment {
+  width: 379px;
+  height: 309.833px;
+  border-radius: 5px;
+  background: rgba(88, 49, 21, 0.57);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 71px;
+}
+.my-page .section4 .container2 .comment .person {
+  position: absolute;
+  margin-top: -41px;
+  margin-left: 149px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+$firstpage-color: #ffffff;
+$section1-color1: #471E22;
+$section1-color2: #533B2F;
+$buttoncolor: #B77E66;
+$section1-button-fontcolor: #FFF;
+$section2-openinghours-color: rgba(34, 27, 24, 0.60);
+$section3-explanation1-font-color: #FFFADA;
+$section3-ourmenu-fontcolor: #903711;
+$section3-coffee-fontcolor: #9E5A3D;
+$section3-cappacino-background-color: #734a39e0;
+$section3-ordernow-button-color: #A0583C;
+$firstpage-font-family: 'Poppins', sans-serif;
+$section1-font-family: 'Inter', sans-serif;
+$section2-font-family: 'Irish Grover', sans-serif;
+$section4-font-family: 'Lexend', sans-serif;
+
+.my-page{
+    position: absolute;
+    
+    .firstpage{
+        position: relative;
+    height: 786px;
+    font-family: $firstpage-font-family; 
+
+     .backgroundimage1{
+        position: relative;
+        }
+             .header{
+                position: absolute;
+                top: 0px;
+                display: flex;
+                align-items: center;
+                gap: 285px;
+                }
+
+                .logo{
+                margin-top: 15.35px;
+                margin-left: 84px;
+                }
+
+                .header>.header1{
+                text-transform: uppercase;
+                display: flex;
+                gap: 52px;
+                color: $firstpage-color;
+                font-size: 20px;
+                }
+
+            .firstpagewords{
+                position: absolute;
+                bottom: 130.8px;
+                left: 120px;
+
+                .freshcoffee{
+                    color: $firstpage-color;
+                    font-size: 64px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+    
+                .lorem{
+                    color: $firstpage-color;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 31.79px;
+                    text-transform: capitalize;
+                    margin-bottom: 50px;
+                }
+    
+                .ordernow{
+                    width: 330px;
+                    height: 88.302px;
+                    border-radius: 10px;
+                    background: $buttoncolor;
+                    box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.30);
+                    color: $firstpage-color;
+                    font-size: 24px;
+                    font-weight: 700;
+                    border: 0px;
+                }
+            }
+}
+
+
+
+.section1{
+    position: relative;
+    margin-top: -15px;
+    font-family: $section1-font-family;
+
+        .section1words{
+            position: absolute;
+            right: 208.72px;
+            top: 215.2px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 30px;
+        }
+
+        .welcome{
+            color: $section1-color1;
+            font-size: 35px;
+            font-weight: 600;
+            line-height: 44.458px;
+            letter-spacing: -1.575px;
+        }
+
+        .yourbest{
+            color: $section1-color2;
+            font-size: 21px;
+            font-weight: 400;
+            width: 469px;
+            height: 72px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .viewmore{
+            width: 179.813px;
+            height: 44px;
+            background: $buttoncolor;
+            color: $section1-button-fontcolor;
+            font-family: $firstpage-font-family;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 10px;
+            border: 0px;
+         }
+
+}
+
+
+.section2{
+    position: relative;
+
+    .section2words{
+        position: absolute;
+        right: 174px;
+        left: 156px;
+        top: 126px;
+        display: flex;
+        gap: 142px;
+    }
+
+    .openinghours{
+        width: 534px;
+        height: 147px;
+        border-radius: 10px;
+        background: $section2-openinghours-color;
+        color: $section1-button-fontcolor;
+        font-family: $section2-font-family;
+        font-size: 64px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row1row2{
+        font-family: $section2-font-family;
+        color: $section1-button-fontcolor;
+        font-size: 36px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .row1{
+            margin-bottom: 25px;
+            display: flex;
+            gap: 80px;
+        }
+
+        .row2{
+            display: flex;
+            gap: 80px;
+        }
+}
+
+.section3{
+    position: relative;
+
+    img{
+        position: absolute;
+        z-index: -1;
+    }
+
+    .container1{
+        max-width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -15px;
+        height: 819px;
+
+        
+        .our-menu{
+        text-align: center;
+        color: $section3-ourmenu-fontcolor;
+        font-family: $firstpage-font-family;
+        font-size: 50px;
+        font-weight: 400;
+        text-transform: capitalize;
+        -webkit-text-stroke: 0.4px $firstpage-color;
+        padding-top: 83px;
+        padding-bottom: 37.26px;
+        }
+
+        .coffee{
+            color: $section3-ourmenu-fontcolor;
+            font-family: $firstpage-font-family;
+            font-size: 30px;
+            font-weight: 600;
+            padding-left: 50.29px;
+        }
+
+        .underline{
+            position: absolute;
+            width: 100.571px;
+            height: 3px;
+            background: $section3-coffee-fontcolor;
+        }
+
+        .drinks{
+            display: flex;
+            margin-top: 39.93px;
+            gap: 41px;
+
+            .drink{
+                padding: 15px 15px 26px;
+                position: relative;
+                width: 260px;
+                height: 444.322px;
+                border-radius: 20px;
+                background: $section3-cappacino-background-color;
+                box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
+
+
+            img{
+                border-radius: 10px;
+            }
+
+            .title1{
+                color: $section1-button-fontcolor;
+                font-family: $firstpage-font-family;
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .explanation1{
+                color: $section3-explanation1-font-color;
+                font-family: $firstpage-font-family;
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 21px;
+                letter-spacing: 0.24px;
+            }
+            
+            .ordernow-price{
+                position: absolute;
+                display: flex;
+                gap: 49px;
+                bottom: 26.66px;
+                align-items: center;
+            }
+            
+            .price{
+                color: $section1-button-fontcolor;
+                font-family: $firstpage-font-family;
+                font-size: 21px;
+                font-weight: 700;
+                width: 61px;
+                height: 31.596px;
+                text-align: center;
+            }
+            
+            .ordernow-button{
+                width: 120px;
+                height: 39.495px;
+                border-radius: 10px;
+                background: $section3-ordernow-button-color;
+                color: $section1-button-fontcolor;
+                font-family: $firstpage-font-family;
+                font-size: 16px;
+                font-weight: 500;
+                border: none;
+                box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.25);
+            }
+
+            .backward-button{
+                margin-top: 40px;
+    
+                .ellipse1-img{
+                    margin-left: -50px;
+                }
+
+                .vector1-img{
+                    margin-left: -30px;
+                    margin-top: 7px;
+                }
+            }
+
+            .forward-button{
+
+                .ellipse2-img{
+                    margin-left: 215px;
+                    margin-top: 40px;
+                }
+
+                .vector2-img{
+
+                }
+            }
+            
+            }
+        }
+
+    }
+
+}
+
+.section4{
+    position: relative;
+
+    img{
+        position: absolute;
+        z-index: -1;
+    }
+
+    .container2{
+        max-width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -15px;
+        height: 609px;
+
+        .what-our-customers{
+            color: $section1-button-fontcolor;
+            text-align: center;
+            font-family: $section4-font-family;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 60px;
+            padding-top: 81px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 36px;
+
+            .underline1{
+                width: 300px;
+                height: 1px;
+                background: #CBCBCB;    
+            }
+        }
+
+        .comment{
+            width: 379px;
+            height: 309.833px;
+            border-radius: 5px;
+            background: rgba(88, 49, 21, 0.57);
+            box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+            margin-top: 71px;
+
+            .person{
+                position: absolute;
+                margin-top: -41px;
+                margin-left: 149px;
+            }
+        }
+        }
+    }
+}
