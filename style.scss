@@ -26,18 +26,30 @@ $section4-font-family: 'Lexend', sans-serif;
 
     .firstpage{
         position: relative;
-    height: 786px;
-    font-family: $firstpage-font-family; 
+        height: 786px;
+        font-family: $firstpage-font-family; 
 
-     .backgroundimage1{
-        position: relative;
+        &>img{
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 768px;
+            object-fit: cover;
         }
-             .header{
-                position: absolute;
-                top: 0px;
+
+        .container-2{
+            max-width: 1160px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            left: -15px;
+            height: 768px;
+
+            .header{
                 display: flex;
                 align-items: center;
                 gap: 285px;
+                padding-right: 172px;
                 }
 
                 .logo{
@@ -54,9 +66,8 @@ $section4-font-family: 'Lexend', sans-serif;
                 }
 
             .firstpagewords{
-                position: absolute;
-                bottom: 130.8px;
-                left: 120px;
+                margin-top: 110px;
+                margin-left: 106px;
 
                 .freshcoffee{
                     color: $firstpage-color;
@@ -64,7 +75,7 @@ $section4-font-family: 'Lexend', sans-serif;
                     font-weight: 700;
                     text-transform: capitalize;
                 }
-    
+                
                 .lorem{
                     color: $firstpage-color;
                     font-size: 22px;
@@ -86,23 +97,38 @@ $section4-font-family: 'Lexend', sans-serif;
                     border: 0px;
                 }
             }
+        }
 }
-
-
-
+        
+        
 .section1{
     position: relative;
-    margin-top: -15px;
+    margin-top: -30px;
     font-family: $section1-font-family;
 
+    &>img{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 655px;
+        object-fit: cover;
+    }
+
+    .container-1{
+        max-width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -15px;
+        height: 655px;
+
+        
         .section1words{
-            position: absolute;
-            right: 208.72px;
-            top: 215.2px;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
             gap: 30px;
+            padding-top: 218px;
         }
 
         .welcome{
@@ -122,7 +148,7 @@ $section4-font-family: 'Lexend', sans-serif;
             display: flex;
             justify-content: flex-end;
         }
-
+        
         .viewmore{
             width: 179.813px;
             height: 44px;
@@ -133,56 +159,72 @@ $section4-font-family: 'Lexend', sans-serif;
             font-weight: 600;
             border-radius: 10px;
             border: 0px;
-         }
-
+        }
+        
+    }
 }
 
 
 .section2{
     position: relative;
 
-    .section2words{
+    &>img{
         position: absolute;
-        right: 174px;
-        left: 156px;
-        top: 126px;
-        display: flex;
-        gap: 142px;
+        z-index: -1;
+        width: 100%;
+        height: 438px;
+        object-fit: cover;
     }
 
-    .openinghours{
-        width: 534px;
-        height: 147px;
-        border-radius: 10px;
-        background: $section2-openinghours-color;
-        color: $section1-button-fontcolor;
-        font-family: $section2-font-family;
-        font-size: 64px;
-        font-weight: 400;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    .container0{
+        max-width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -15px;
+        height: 438px;
 
-    .row1row2{
-        font-family: $section2-font-family;
-        color: $section1-button-fontcolor;
-        font-size: 36px;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-    }
-
-        .row1{
-            margin-bottom: 25px;
+        
+        .section2words{
             display: flex;
-            gap: 80px;
+            gap: 142px;
+            padding-top: 126px;
         }
-
-        .row2{
+        
+        .openinghours{
+            width: 534px;
+            height: 147px;
+            border-radius: 10px;
+            background: $section2-openinghours-color;
+            color: $section1-button-fontcolor;
+            font-family: $section2-font-family;
+            font-size: 64px;
+            font-weight: 400;
             display: flex;
-            gap: 80px;
-        }
+            justify-content: center;
+            align-items: center;
+             }
+    
+            .row1row2{
+                font-family: $section2-font-family;
+                color: $section1-button-fontcolor;
+                font-size: 36px;
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .row1{
+                margin-bottom: 25px;
+                display: flex;
+                gap: 80px;
+            }
+            
+            .row2{
+                display: flex;
+                gap: 80px;
+            }
+}
 }
 
 .section3{
@@ -191,6 +233,9 @@ $section4-font-family: 'Lexend', sans-serif;
     & > img{
         position: absolute;
         z-index: -1;
+        width: 100%;
+        height: 819px;
+        object-fit: cover;
     }
 
     .carousel-button {
@@ -200,8 +245,23 @@ $section4-font-family: 'Lexend', sans-serif;
         background-color: rgba(255, 255, 255, 0.71);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         position: absolute;
-    z-index: 2;
-    border-radius: 50%;
+        z-index: 2;
+        border-radius: 50%;
+        margin-top: 195px;
+        margin-left: -43px;
+    }
+
+    .carousel-button2 {
+        width: 52px;
+        height: 52px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.71);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        z-index: 2;
+        border-radius: 50%;
+        margin-top: 195px;
+        right: -43px;
     }
 
     .container1{
@@ -307,30 +367,6 @@ $section4-font-family: 'Lexend', sans-serif;
                 box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.25);
             }
 
-            .backward-button{
-                margin-top: 40px;
-    
-                .ellipse1-img{
-                    margin-left: -50px;
-                }
-
-                .vector1-img{
-                    margin-left: -30px;
-                    margin-top: 7px;
-                }
-            }
-
-            .forward-button{
-
-                .ellipse2-img{
-                    margin-left: 215px;
-                    margin-top: 40px;
-                }
-
-                .vector2-img{
-
-                }
-            }
             
             }
         }
@@ -344,7 +380,10 @@ $section4-font-family: 'Lexend', sans-serif;
 
     &>img{
         position: absolute;
-
+        z-index: -1;
+        width: 100%;
+        height: 819px;
+        object-fit: cover;
     }
 
     .container2{
@@ -478,6 +517,8 @@ $section4-font-family: 'Lexend', sans-serif;
         top: 30px;
         height: 390px;
         background: #795341;
+        margin-left: auto;
+        margin-right: auto;
 
 
         .map1{
@@ -499,14 +540,20 @@ $section4-font-family: 'Lexend', sans-serif;
     height: 730px;
     background: rgba(29, 23, 20, 0.84);
 
-    img{
+    &>img{
         position: absolute;
         z-index: -1;
+        width: 100%;
+        height: 730px;
+        object-fit: cover;
     }
 
     .container4{
-        padding-top: 174px;
-        padding-left: 233px;
+        max-width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 174px;
         
         .parts{
             color: $section1-button-fontcolor;
