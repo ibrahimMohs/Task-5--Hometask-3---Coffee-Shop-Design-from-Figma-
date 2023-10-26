@@ -317,7 +317,7 @@
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 819px;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -479,7 +479,7 @@
   letter-spacing: 2.3px;
   text-transform: capitalize;
   display: flex;
-  gap: 166px;
+  gap: 115px;
 }
 .section6 .container4 .parts .links {
   display: flex;
